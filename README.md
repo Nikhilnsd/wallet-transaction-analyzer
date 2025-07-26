@@ -28,11 +28,13 @@ Perfect for analysts, researchers, DeFi teams, and anyone who needs scalable on-
 ## 🧉 Folder Structure
 
 ```
-wallet-transaction-counter/
-├── fetch_transactions.py               # Standalone script for one wallet test
- backup)
-├── wallet_transaction_counter.py      # ✅ MAIN script to process wallet list from Google Sheet
-└── README.md                          # This documentation
+wallet-transaction-analyzer/
+├── .env.example                  # Placeholder example (no real keys)
+├── fetch_transactions.py        # Test single wallet
+├── wallet_transaction_counter.py# Main script
+├── README.md                    # Documentation
+└── requirements.txt             # Python dependencies
+                     # This documentation
 ```
 
 ---
